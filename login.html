@@ -10,12 +10,13 @@
         .signin_form {
             border: solid 1px;
             width: 550px;
-            margin:auto;
+            margin: auto;
             display: grid;
             padding: 3%;
             text-align: left;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: large;
+            box-shadow: 0 0 10px black;
         }
 
         h4 {
@@ -33,9 +34,9 @@
 
         .signin_form input {
             height: auto;
-            width: 100%;
+            width: 95%;
             padding: 15px;
-            margin:   5px 0 22px 0px;
+            margin: 5px 0 22px 0px;
             display: inline-block;
             border: none;
             background: #f1eded;
@@ -46,6 +47,7 @@
             display: block;
             margin-bottom: 10px;
             font-family: 'Times New Roman';
+            width: 120%;
         }
 
         .signin_form button {
@@ -63,9 +65,11 @@
             margin-right: 5px;
             margin-top: 20px;
             cursor: pointer;
+            margin-right: 10px;
         }
-        a{
-            text-decoration:none ;
+
+        a {
+            text-decoration: none;
             color: black;
         }
     </style>
@@ -88,14 +92,15 @@
 
         <label>
             <input type="checkbox" id="agreement" name="agreement" required>
-            I've Read And Agree With <a href="https://policies.google.com/terms?hl=en-US"><b>Terms And Services</b> </a>And Our <a href="https://policies.google.com/privacy?hl=en-US"><b>Privacy Policy</b></a>
+            I've Read And Agree With <a href="https://policies.google.com/terms?hl=en-US"><b>Terms And Services</b>
+            </a>And Our <a href="https://policies.google.com/privacy?hl=en-US"><b>Privacy Policy</b></a>
         </label>
 
         <a href="table.html" style="color: white;"><button type="submit" id="signin_page">Sign in </button></a>
         <h4>Or sign in With</h4>
         <br>
         <section>
-            
+
             <a href="https://www.google.com/"><i class="fa-brands fa-google" style="margin-left: 230px;"></i></a>
             <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" style="margin-left: 70px;"></i></a>
         </section>
