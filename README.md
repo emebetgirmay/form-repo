@@ -1,3 +1,3 @@
-# Three files added index.html,login.html and table.html
+# Three files added index.html, login.html and table.html
                   
                 
