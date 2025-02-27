@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>form-repo</title>
+    <style>
+        .signup_form {
+            border: solid 1px;
+            width: 550px;
+            margin:auto;
+            display: grid;
+            padding: 3%;
+            text-align: left;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+        }
+
+        h4 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        h4:before,
+        h4:after {
+            content: "";
+            flex: 1;
+            border-bottom: 2px solid #000;
+            margin: auto;
+        }
+
+        .signup_form input {
+            height: auto;
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1eded;
+            border: solid 1px;
+        }
+
+        .signup_form label {
+            display: block;
+            margin-bottom: 10px;
+            font-family: 'Times New Roman';
+        }
+
+        .signup_form button {
+            background-color: black;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .signup_form input[type="checkbox"] {
+            width: auto;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <form class="signup_form" action="login.html">
+        <p>Already have an account?
+            <a href="login.html">
+                <b>sign in</b>
+            </a>
+        </p>
+        <h1 id="heading">Sign Up</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" required>
+        <label for="password">Password:</label>
+        <input id="password" type="password" />
+
+        <label>
+            <input type="checkbox" id="agreement" name="agreement" required>
+            I've Read And Agree With <a href="https://policies.google.com/terms?hl=en-US"><b>Terms And Services</b></a> And Our <a href="https://policies.google.com/privacy?hl=en-US"><b>Privacy Policy</b></a>
+        </label>
+
+        <a href="table.html" style="color: white;"><button type="submit" id="signup_page">Sign Up</button></a>
+        <h4>Or sign Up With</h4>
+        <br>
+        <section>
+            <a href="https://www.google.com/"><i class="fa-brands fa-google" style="margin-left: 230px ;"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" style="margin-left:70px ;"></i></a>
+        </section>
+
+
+
+    </form>
+
+
+</body>
+
+</html>
